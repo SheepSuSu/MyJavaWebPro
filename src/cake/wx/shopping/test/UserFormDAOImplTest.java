@@ -15,7 +15,7 @@ public class UserFormDAOImplTest {
 		// TODO Auto-generated method stub
 	  
 	try {
-		userform.insert("1223","ÍõºêĞã","±­×Ó",12.12,121,"2008Äê1ÔÂ27ÈÕ",123.23);
+		userform.insert("1223","ccc","æ¯å­",12.12,121,"2023å¹´6æœˆ07æ—¥",123.23);
 		
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
@@ -31,7 +31,7 @@ public class UserFormDAOImplTest {
 //	}
 //	
 //	try {
-//		List<UserForm> userform1=userform.selectByName("¹ùµ¤µ¤");
+//		List<UserForm> userform1=userform.selectByName("dddd");
 //		System.out.println(userform1.get(0).getUsername()+"\t"+userform1.get(0).getTime());
 //		System.out.println(userform1.size());
 //	} catch (Exception e) {
