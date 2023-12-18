@@ -7,7 +7,7 @@ public  class UserAccountDAOImplTest {
 	public static void newUserAccountTest(String name) {
 		try {
 			DAOFactory.getUserAccountDAOInstance().newUserAccount(name);
-			System.out.println("´´½¨³É¹¦£¡");
+			System.out.println("åˆ›å»ºæˆåŠŸï¼");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -16,7 +16,7 @@ public  class UserAccountDAOImplTest {
 	public static void deleteUserAccountTest(String name) {
 		try {
 			DAOFactory.getUserAccountDAOInstance().deleteUserAccount(name);
-			System.out.println("É¾³ı³É¹¦£¡");
+			System.out.println("åˆ é™¤æˆåŠŸï¼");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -26,7 +26,7 @@ public  class UserAccountDAOImplTest {
 		try {
 			DAOFactory.getUserAccountDAOInstance().updateUserAccount(name,
 					money);
-			System.out.println("¸üĞÂ³É¹¦£¡");
+			System.out.println("æ›´æ–°æˆåŠŸï¼");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -36,7 +36,7 @@ public  class UserAccountDAOImplTest {
 	 try {
 	 UserAccount
 	 userAccount=(UserAccount)DAOFactory.getUserAccountDAOInstance().selectUserAccount(username);
-	 System.out.println("Ñ¡Ôñ³É¹¦£¡");
+	 System.out.println("é€‰æ‹©æˆåŠŸï¼");
 	 return userAccount;
 	 } catch (Exception e) {
 		 e.printStackTrace();
@@ -44,9 +44,9 @@ public  class UserAccountDAOImplTest {
 	return null;
 	 }
 	public static void main(String[] args) {
-		//newUserAccountTest("¼Ò¼Ò");
-       // deleteUserAccountTest("¼Ò¼Ò");
-		System.out.println(selectUserAccountTest("ÍõºêĞã1").getUsername()+selectUserAccountTest("ÍõºêĞã1").getMoney());
-//        updateUserAccountTest("µ¤µ¤", 0.01);
+		//newUserAccountTest("aaa");
+       // deleteUserAccountTest("aaa");
+		System.out.println(selectUserAccountTest("ccc").getUsername()+selectUserAccountTest("ccc").getMoney());
+//        updateUserAccountTest("bbb", 0.01);
 	}
 }
