@@ -7,10 +7,10 @@ public class UserOBeanTest {
 	
 	public static void main(String []args){
 		for(int i=1;i<50;i++){
-			String str="用户"+i;
-			String email= "cake" +i+"@126.com";
-			String tel="139516526"+i;
-			String address="无锡太湖大道"+i+"号";
+			String str="user"+i;
+			String email= "whoami" +i+"@126.com";
+			String tel="19916984326"+i;
+			String address="广州"+i+"号";
 			String sex="男";
 			if(i%2==0){
 				sex="女";
