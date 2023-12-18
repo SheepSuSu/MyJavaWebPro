@@ -2,23 +2,18 @@ package cake.wx.shopping.test;
 
 import cake.wx.shopping.busbean.UserOBean;
 
-/**
- * 
- * @author ³ÂÖ¾¾ü²âÊÔ
- *
- */
 
 public class UserOBeanTest {
 	
 	public static void main(String []args){
 		for(int i=1;i<50;i++){
-			String str="ÓÃ»§"+i;
+			String str="ç”¨æˆ·"+i;
 			String email= "cake" +i+"@126.com";
 			String tel="139516526"+i;
-			String address="ÎŞÎıÌ«ºş´óµÀ"+i+"ºÅ";
-			String sex="ÄĞ";
+			String address="æ— é”¡å¤ªæ¹–å¤§é“"+i+"å·";
+			String sex="ç”·";
 			if(i%2==0){
-				sex="Å®";
+				sex="å¥³";
 			}
 			int age=i;
 			
