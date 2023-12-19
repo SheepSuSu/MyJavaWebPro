@@ -26,7 +26,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -74,7 +73,7 @@ a:active {
               <td width="29%">&nbsp;</td>
             </tr>
             <tr>
-              <td colspan="4" align="center" class="welcome-text">»¶Ó­µÇÂ¼ºóÌ¨¹ÜÀíÏµÍ³</td>
+              <td colspan="4" align="center" class="welcome-text">æ¬¢è¿ç™»å½•åå°ç®¡ç†ç³»ç»Ÿ</td>
             </tr>
             <tr>
               <td height="55">&nbsp;</td>
@@ -84,7 +83,7 @@ a:active {
             </tr>
             <tr>
               <td>&nbsp;</td>
-              <td><div align="right" class="STYLE1">¹ÜÀíÔ±£º</div></td>
+              <td><div align="right" class="STYLE1">ç®¡ç†å‘˜ï¼š</div></td>
               <td><div align="center">
                   <input name="username" type="text" class="STYLE1" id="username" size="15">
               </div></td>
@@ -92,7 +91,7 @@ a:active {
             </tr>
             <tr>
               <td>&nbsp;</td>
-              <td><div align="right"><span class="STYLE1">ÃÜÂë</span>£º</div></td>
+              <td><div align="right"><span class="STYLE1">å¯†ç </span>ï¼š</div></td>
               <td><div align="center">
                   <input name="password" type="password" class="STYLE1" id="password" size="15">
               </div></td>
@@ -101,9 +100,9 @@ a:active {
             <tr>
               <td height="49">&nbsp;</td>
               <td></td>
-              <td colspan="2">¡¡
-                <input name="login" type="submit" class="STYLE1" value="µÇÂ¼">
-                  <input name="reset" type="reset" class="STYLE1" value="È¡Ïû"></td>
+              <td colspan="2">ã€€
+                <input name="login" type="submit" class="STYLE1" value="ç™»å½•">
+                  <input name="reset" type="reset" class="STYLE1" value="å–æ¶ˆ"></td>
             </tr>
           </table>
                   </form>
