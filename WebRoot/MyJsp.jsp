@@ -17,7 +17,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -39,15 +38,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<table id="example" class="tablesorter" border="0" cellpadding="0" cellspacing="1">
 		<thead>
 			<tr>
-				<th>ÓÃ»§Ãû</th>
-				<th>ÃÜÂë</th>
+				<th>ç”¨æˆ·å</th>
+				<th>å¯†ç </th>
 
 				<th>Email</th>
-				<th>µç»°</th>
-				<th>µØÖ·</th>
-				<th>ĞÔ±ğ</th>
-				<th>ÄêÁä</th>
-				<th>×¢²áÊ±¼ä</th>
+				<th>ç”µè¯</th>
+				<th>åœ°å€</th>
+				<th>æ€§åˆ«</th>
+				<th>å¹´é¾„</th>
+				<th>æ³¨å†Œæ—¶é—´</th>
 			</tr>
 		</thead>
 		<tbody>
