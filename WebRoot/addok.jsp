@@ -1,4 +1,4 @@
-<%--��ֵ�ɹ�����--%>
+<%--充值成功界面--%>
 <%@ page language="java" import="cake.wx.shopping.vo.*" pageEncoding="gbk"%>
 <%
 String path = request.getContextPath();
@@ -10,13 +10,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>��ֵ�ɹ���</title>
+    <title>充值成功！</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -37,10 +36,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		}
  %>
 		<div align="center">
-			<font size="2" color="#0000ff"> ��ֵ�ɹ���������Զ���ת����ֵҳ��<br>
-				<br> </font><font size="2"><a href="index.jsp">���ֱ����ת���̳���ҳ</a>
+			<font size="2" color="#0000ff"> 充值成功！三秒后将自动跳转到充值页面<br>
+				<br> </font><font size="2"><a href="index.jsp">点击直接跳转到商城首页</a>
 			<br>
-				<a href="userconsle.jsp">���ֱ����ת���û��������</a>
+				<a href="userconsle.jsp">点击直接跳转到用户控制面板</a>
 			</font>
 			<br>
 		</div>
