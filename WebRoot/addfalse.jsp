@@ -1,4 +1,4 @@
-<%--³äÖµÊ§°ÜÒ³Ãæ--%>
+<%--å……å€¼å¤±è´¥é¡µé¢--%>
 <%@ page language="java" import="java.util.*,cake.wx.shopping.vo.*" pageEncoding="gbk"%>
 <%
 String path = request.getContextPath();
@@ -10,13 +10,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>³äÖµÊ§°Ü£¡</title>
+    <title>å……å€¼å¤±è´¥ï¼</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -39,12 +38,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <%
   	if("zero".equals(request.getSession().getAttribute("zeromoney"))){
   		out.print("<div align='center'>");
-		out.print("<font size='2' color='#0000ff'> ³äÖµ0Ôª£¡ÈıÃëºó½«×Ô¶¯Ìø×ªµ½×¢²áÒ³Ãæ<br>");
+		out.print("<font size='2' color='#0000ff'> å……å€¼0å…ƒï¼ä¸‰ç§’åå°†è‡ªåŠ¨è·³è½¬åˆ°æ³¨å†Œé¡µé¢<br>");
   	}else{
   		out.print("<div align='center'>");
-		out.print("<font size='2' color='#0000ff'> ³äÖµÊ§°Ü£¡ÈıÃëºó½«×Ô¶¯Ìø×ªµ½ÓÃ»§³äÖµÒ³Ãæ<br>");
+		out.print("<font size='2' color='#0000ff'> å……å€¼å¤±è´¥ï¼ä¸‰ç§’åå°†è‡ªåŠ¨è·³è½¬åˆ°ç”¨æˆ·å……å€¼é¡µé¢<br>");
   	}
-  		out.print("<br> </font><font size='2'><a href='index.jsp'>µã»÷Ö±½ÓÌø×ªµ½ÉÌ³ÇÊ×Ò³</a>");
+  		out.print("<br> </font><font size='2'><a href='index.jsp'>ç‚¹å‡»ç›´æ¥è·³è½¬åˆ°å•†åŸé¦–é¡µ</a>");
 		out.print("<br>");
 		out.print("</font>");
 		out.print("<br>");
